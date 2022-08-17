@@ -1,0 +1,36 @@
+.pageBody {
+    display : flex;
+    flex-direction : row;
+    border : solid black 5px;
+    align-items : center;
+    justify-content : center;
+    padding-top : 13.5px;
+    padding-right : 80px;
+}
+
+.loginBox {
+    border : solid blue 5px;
+    height : 565px;
+    margin-top : -55px;
+    width : 370px;
+}
+
+.posterImgDiv {
+     border : solid pink 5px;
+     display : flex;
+}
+
+.instaPosterContent {
+   
+    margin-left : -313px;
+    margin-top : 20px;
+    height : 550px;
+    border-radius : 25px;
+    
+    
+    
+}
+
+.instaPoster {
+    
+}
