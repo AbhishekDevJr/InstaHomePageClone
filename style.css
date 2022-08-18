@@ -9,10 +9,11 @@
 }
 
 .loginBox {
-    border : solid blue 5px;
-    height : 565px;
-    margin-top : -55px;
-    width : 370px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    height : 420px;
+    margin-top : -200px;
+    margin-left : 45px;
+    width : 350px;
 }
 
 .posterImgDiv {
@@ -31,6 +32,30 @@
     
 }
 
-.instaPoster {
+.instagramLogo {
     
+    margin-top : 50px;
+    margin-left : 95px;
+}
+
+.input {
+    height : 35px;
+    width : 250px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size : 12px;    
+    border : 1px solid rgba(var(--b6a,219,219,219),1);
+    margin-left : 50px;
+    margin-top : 30px;
+}
+
+.pass {
+    margin-top : 5px;
+}
+
+button {
+    width : 255px;
+    height : 28px;
+    margin-left : 50px;
+    margin-top : 12.5px;
+
 }
