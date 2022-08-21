@@ -14,6 +14,7 @@
     margin-top : -200px;
     margin-left : 45px;
     width : 350px;
+    
 }
 
 .posterImgDiv {
@@ -116,4 +117,20 @@ button {
 .fbIcon {
     width : 32px;
     height : 32px;
+}
+
+.lastText {
+    
+    text-align : center;
+    font-family : "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size : 12.5px;
+    color : #385185;
+    
+    margin-top :9px;
+}
+
+.TextLink {
+    text-decoration : none;
+    color : #385185;
+    
 }
