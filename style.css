@@ -46,6 +46,8 @@
     border : 1px solid rgba(var(--b6a,219,219,219),1);
     margin-left : 50px;
     margin-top : 30px;
+    border-radius : 3px;
+    outline-width : 0;
 }
 
 .pass {
@@ -54,8 +56,64 @@
 
 button {
     width : 255px;
-    height : 28px;
+    height : 32px;
     margin-left : 50px;
     margin-top : 12.5px;
+    border : 1px solid transparent;
+    background-color : rgba(var(--d69,0,149,246),.3);
+    opacity : 1;
+    border-radius : 4px;
+    color : rgba(var(--eca,255,255,255),1);
+    position : relative;
+    font-family : "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight : 600;
+    font-size : 14px;
+}
 
+.Line-or-line {
+    
+    width : 250px;
+    margin-left : 52px;
+    margin-top : 18px;
+    height : 30px;
+    display : flex;
+    justify-content : space-between;
+    align-items : flex-start;
+}
+
+.orLine {
+    border : 0 solid #000;
+    width : 92.5px;
+    margin-top : 9px;
+    background-color : rgba(var(--b38,219,219,219),1);
+    height : 1px;
+    
+}
+
+.OrText {
+    color : rgba(var(--f52,142,142,142),1);
+    font-size : 13px;
+    font-weight : 600px;
+    margin-top : 2.5px;
+}
+
+.symbolFB {
+    
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-evenly;
+    width : 200px;
+    height : 40px;
+    margin-left : 70px;
+    text-decoration : none;
+    color: #385185;
+    font-family : "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size : 14px;
+    font-weight : 600;
+}
+
+.fbIcon {
+    width : 32px;
+    height : 32px;
 }
