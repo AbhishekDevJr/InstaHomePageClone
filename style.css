@@ -139,8 +139,8 @@ button {
     border: 1px solid rgba(var(--b6a,219,219,219),1);
     width : 351px;
     height : 60px;
-    margin-left : 774px;
-    margin-top : -205px;
+    margin-left : 760px;
+    margin-top : -195px;
     text-align : center;
     display : flex;
     justify-content : center;
@@ -152,14 +152,19 @@ button {
 }
 
 .linkSignUp {
+    
     text-decoration : none;
     margin-left : 5px;
+    color: rgba(var(--d69,0,149,246),1);
+    font-size : 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight : 600;
 }
 
 .appPromotion {
     
     width : 351px;
-    margin-left : 774px;
+    margin-left : 760px;
     text-align : center;
     margin-top : 18px;
     font-family : "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
